@@ -93,11 +93,12 @@
     "buffer": "^6.0.3",
     "concurrently": "^8.2.2",
     "dotenv": "^16.4.5",
-    "ethers": "^6.12.0",
+    "ethers": "^5.7.2",
     "gh-pages": "^6.1.1",
     "rimraf": "^5.0.5",
     "simple-git-hooks": "^2.9.0",
     "size-limit": "^11",
+    "ts-node": "^10.9.2",
     "tsc-alias": "^1.8.8",
     "tslib": "^2.6.2",
     "typedoc": "^0.25.9",
@@ -117,6 +118,17 @@
     "commit-msg": "npx --no -- commitlint --edit ${1}"
   },
   "dependencies": {
-    "merkletreejs": "^0.3.11"
+    "@biconomy/account": "^4.5.4",
+    "@google-cloud/storage": "^7.12.0",
+    "axios": "^1.7.4",
+    "crypto": "^1.0.1",
+    "electron": "^31.3.1",
+    "ipfs-http-client": "^60.0.1",
+    "merkletreejs": "^0.3.11",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.3.2",
+    "pinata": "^0.1.10",
+    "util": "^0.12.5",
+    "web3": "^4.11.1"
   }
 }
