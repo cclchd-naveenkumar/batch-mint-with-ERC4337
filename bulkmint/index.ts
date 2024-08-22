@@ -44,7 +44,7 @@ pool.query = util.promisify(pool.query)
 const queryIsProcessedNftAsc = async () => {
   try {
     const results = await pool.query(
-      "SELECT * FROM bulk_cert_requests WHERE is_processed = 0 ORDER BY id ASC LIMIT 1"
+      "SELECT * FROM bulk_cert_requests WHERE is_processed = 0 ORDER BY id ASC LIMIT 50"
     )
     return results
   } catch (error) {
